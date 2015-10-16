@@ -1,0 +1,15 @@
+{
+  "name": "promise",
+  "version": "1.0.0",
+  "description": "Minimal Promise",
+  "main": "promise.js",
+  "repository": "https://github.com/tanzhihang/promise",
+  "keywords": [
+    "promise"
+  ],
+  "author": "Joshua",
+  "license": "MIT",
+  "dependencies": {
+    "mocha": "^2.3.3"
+  }
+}
