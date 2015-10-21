@@ -7,12 +7,12 @@ var wait = function(){
 	var p = new Promise();
 	var tasks = function(){
 		console.log("执行完毕！");
-		p.resolve();
+		p.resolve('success');
 	};
 	setInterval(tasks, 1000);
 	return p;
 };
 
-when(wait())
-.then(function(){ console.log("哈哈，成功了！"); })
+Promise.when(wait())
+.then(function(req){ console.log(req); })
 ```
